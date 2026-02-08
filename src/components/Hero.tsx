@@ -16,7 +16,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
           style={{
-            backgroundImage: `url('/images/event-2.jpg')`,
+            backgroundImage: `url('/images/blog-04.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-espresso/75 via-espresso/55 to-espresso/85" />

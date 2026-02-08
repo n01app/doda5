@@ -120,7 +120,7 @@ export default function Menu() {
       {/* Background accent with real image */}
       <div className="absolute inset-0 opacity-5">
         <img
-          src="/images/matcha.jpg"
+          src="/images/blog-08.jpg"
           alt=""
           className="w-full h-full object-cover"
           aria-hidden="true"

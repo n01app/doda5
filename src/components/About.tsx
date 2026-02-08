@@ -40,8 +40,8 @@ export default function About() {
             <div className="relative">
               <div className="img-hover rounded-2xl overflow-hidden shadow-2xl shadow-warm-900/10">
                 <img
-                  src="/images/barista.jpg"
-                  alt="Interior DODA5 - atmosferă cozy cu plante și design modern"
+                  src="/images/blog-01.jpg"
+                  alt="Interior DODA5 și grădina cu maslin văzută prin geamurile mari"
                   className="w-full h-[500px] object-cover"
                 />
               </div>

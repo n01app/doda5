@@ -4,9 +4,14 @@ import { useEffect, useRef, useState } from "react";
 
 const images = [
   {
-    src: "/images/event-2.jpg",
-    alt: "Interior DODA5 - eveniment cu atmosferă vibrantă, plante și design modern",
+    src: "/images/blog-06.jpg",
+    alt: "Interior DODA5 - design modern cu banchete verzi, scaune cupru și corpuri de iluminat suspendate",
     span: "col-span-2 row-span-2",
+  },
+  {
+    src: "/images/blog-01.jpg",
+    alt: "Curtea interioară DODA5 văzută prin geamuri - grădina cu maslin și mural artistic",
+    span: "col-span-1 row-span-1",
   },
   {
     src: "/images/matcha.jpg",
@@ -14,23 +19,18 @@ const images = [
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/hero.jpg",
-    alt: "Bariștii DODA5 la counter, cu meniu vizibil",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    src: "/images/event-3.jpg",
-    alt: "Design interior DODA5 - perete cu lamele de lemn și plante",
+    src: "/images/blog-07.jpg",
+    alt: "Grădina DODA5 - terasă cu pietriș alb, plante, maslin și semne motivaționale",
     span: "col-span-1 row-span-2",
   },
   {
-    src: "/images/conversation.jpg",
-    alt: "Echipa DODA5 în spatele barului cu logo-ul pe perete",
+    src: "/images/blog-08.jpg",
+    alt: "Latte art în cești DODA5 cu croissant și rozmarin",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/event.jpg",
-    alt: "Bright Minds Show - eveniment la DODA5 cu neon signs",
+    src: "/images/blog-03.jpg",
+    alt: "Vitrina de prăjituri DODA5 - torturi, cheesecake și deserturi artizanale",
     span: "col-span-1 row-span-1",
   },
 ];
@@ -71,9 +71,10 @@ export default function Space() {
           </h2>
           <div className="divider mx-auto mb-6" />
           <p className="text-warm-700 text-lg max-w-2xl mx-auto">
-            Un sanctuar modern, cu design contemporan, pereți din beton aparent,
-            lamele de lemn, plante verzi peste tot și lumină naturală. Cafenea de
-            specialitate și co-working space &icirc;ntr-un singur loc.
+            Un interior cu banchete din catifea verde, mese din lemn masiv,
+            corpuri de iluminat suspendate și pereți din beton aparent. &Icirc;n
+            spate, o grădină secretă cu pietriș alb, un maslin bătr&acirc;n,
+            plante verzi și citate pe pereți.
           </p>
         </div>
 
@@ -100,9 +101,43 @@ export default function Space() {
           ))}
         </div>
 
+        {/* Garden Feature */}
+        <div
+          className={`mt-16 grid lg:grid-cols-2 gap-8 items-center transition-all duration-1000 delay-500 ${
+            visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
+          <div className="img-hover rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="/images/blog-07.jpg"
+              alt="Grădina DODA5 cu terasă pe pietriș alb, plante și citate pe perete"
+              className="w-full h-[350px] object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div className="space-y-4">
+            <h3 className="text-2xl sm:text-3xl font-bold text-espresso">
+              Grădina Secretă
+            </h3>
+            <p className="text-warm-700 leading-relaxed">
+              &Icirc;n curtea din spate te așteaptă un colț de liniște cu
+              pietriș alb, un maslin impunător și plante verzi. Pe pereți,
+              mesajele noastre preferate: <em>&ldquo;Sunrise goes with
+              coffee&rdquo;</em>, <em>&ldquo;Sunset matches the
+              wine&rdquo;</em> și <em>&ldquo;Dark mode activated &ndash; switch
+              from coffee to wine&rdquo;</em>.
+            </p>
+            <p className="text-warm-700 leading-relaxed">
+              Locul perfect pentru o cafea &icirc;n aer liber, un brunch relaxat
+              sau o seară de vară cu un pahar de vin. Design modern, atmosferă
+              intimă, departe de agitația orașului.
+            </p>
+          </div>
+        </div>
+
         {/* Instagram CTA */}
         <div
-          className={`text-center mt-12 transition-all duration-1000 delay-500 ${
+          className={`text-center mt-14 transition-all duration-1000 delay-700 ${
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
