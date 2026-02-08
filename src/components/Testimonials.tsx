@@ -4,27 +4,27 @@ import { useEffect, useRef, useState } from "react";
 
 const testimonials = [
   {
-    text: "The coffee is exceptional and the interior design is simply beautiful. A real hidden gem near Eminescu.",
-    author: "Maria D.",
-    role: "Regular Customer",
-    rating: 5,
-  },
-  {
-    text: "Doda5 has a modern, well-maintained interior and a charming little courtyard garden in the back. The coffee is very good!",
+    text: "Doda5 are un interior cu design plăcut și o curte mică, în spate, la fel de bine amenajată. Cafeaua este foarte bună!",
     author: "Radu N.",
     role: "Coffee Blogger",
     rating: 5,
   },
   {
-    text: "A wonderful surprise to find such a sleek, cozy cafe tucked away among the old houses. The pastries are delicious too.",
-    author: "Alex P.",
-    role: "Food Enthusiast",
+    text: "E ușor să crezi că un espressor bun face toată treaba. La DODA5, cafeaua nu e rezultatul întâmplării, este rezultatul oamenilor care știu exact ce fac.",
+    author: "DODA5",
+    role: "Filosofia noastră",
     rating: 5,
   },
   {
-    text: "Best flat white in the neighborhood. The atmosphere is perfect for working or just enjoying a quiet moment.",
+    text: "O surpriză bună să găsești o cafenea de genul acesta într-o clădire modernă, dintr-o zonă de case vechi. Design modern și îngrijit.",
+    author: "Vizitator",
+    role: "Google Review",
+    rating: 5,
+  },
+  {
+    text: "Sunrise goes with coffee, sunset matches the wine. Locul perfect pentru o sesiune productivă sau o cafea cu prietenii.",
     author: "Elena S.",
-    role: "Freelancer",
+    role: "Co-working Regular",
     rating: 5,
   },
 ];
@@ -59,10 +59,10 @@ export default function Testimonials() {
           }`}
         >
           <p className="text-warm-500 text-sm tracking-[0.3em] uppercase mb-4 font-medium">
-            Kind Words
+            Cuvinte Frumoase
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-espresso mb-6">
-            What People Say
+            Ce Spun Oamenii
           </h2>
           <div className="divider mx-auto" />
         </div>

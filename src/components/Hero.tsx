@@ -11,15 +11,15 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image - real DODA5 interior */}
       <div className="absolute inset-0">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=2000&q=80')`,
+            backgroundImage: `url('/images/event-2.jpg')`,
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-espresso/70 via-espresso/50 to-espresso/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-espresso/75 via-espresso/55 to-espresso/85" />
         <div className="absolute inset-0 grain" />
       </div>
 
@@ -31,7 +31,7 @@ export default function Hero() {
           }`}
         >
           <p className="text-warm-300 text-sm tracking-[0.3em] uppercase mb-6 font-medium">
-            Specialty Coffee &middot; Bucharest
+            Cafenea de Specialitate &middot; Co-working Space
           </p>
         </div>
 
@@ -61,8 +61,9 @@ export default function Hero() {
           }`}
         >
           <p className="text-warm-300/80 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-            A cozy corner in the heart of Bucharest where every cup tells a
-            story of origin, craft, and passion.
+            Sunrise goes with coffee. Un colț cozy &icirc;n inima Bucureștiului
+            unde fiecare ceașcă spune o poveste despre origine, meșteșug și
+            pasiune.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -70,13 +71,13 @@ export default function Hero() {
               href="#menu"
               className="inline-flex items-center justify-center px-8 py-3.5 bg-warm-400 text-espresso font-medium text-sm tracking-wider uppercase rounded-full hover:bg-warm-300 transition-all duration-300 hover:shadow-lg hover:shadow-warm-400/20"
             >
-              Explore Menu
+              Vezi Meniul
             </a>
             <a
               href="#find-us"
               className="inline-flex items-center justify-center px-8 py-3.5 border border-warm-400/40 text-warm-200 font-medium text-sm tracking-wider uppercase rounded-full hover:bg-warm-400/10 transition-all duration-300"
             >
-              Visit Us
+              Vizitează-ne
             </a>
           </div>
         </div>

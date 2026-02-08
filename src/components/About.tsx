@@ -40,16 +40,16 @@ export default function About() {
             <div className="relative">
               <div className="img-hover rounded-2xl overflow-hidden shadow-2xl shadow-warm-900/10">
                 <img
-                  src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80"
-                  alt="DODA5 cozy interior with modern design"
+                  src="/images/barista.jpg"
+                  alt="Interior DODA5 - atmosferă cozy cu plante și design modern"
                   className="w-full h-[500px] object-cover"
                 />
               </div>
               {/* Floating card */}
               <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl shadow-warm-900/5 max-w-[220px]">
-                <p className="text-4xl font-bold text-warm-500 mb-1">2025</p>
+                <p className="text-4xl font-bold text-warm-500 mb-1">2.7K+</p>
                 <p className="text-sm text-warm-700 leading-snug">
-                  Serving specialty coffee in Bucharest
+                  Coffee lovers pe Instagram
                 </p>
               </div>
             </div>
@@ -64,33 +64,36 @@ export default function About() {
             }`}
           >
             <p className="text-warm-500 text-sm tracking-[0.3em] uppercase mb-4 font-medium">
-              Our Story
+              Povestea Noastră
             </p>
             <h2 className="text-4xl sm:text-5xl font-bold text-espresso mb-6 leading-tight">
-              Where Coffee
+              Unde Cafeaua
               <br />
-              Meets <span className="text-warm-500">Craft</span>
+              &Icirc;nt&acirc;lnește <span className="text-warm-500">Ideile</span>
             </h2>
             <div className="divider mb-8" />
 
             <div className="space-y-5 text-warm-700 leading-relaxed">
               <p>
-                Nestled on the charming Strada Traian Doda in the heart of
-                Bucharest, DODA5 is more than a coffee shop &mdash; it&apos;s a
-                space where ideas come alive. Our name carries our address and
-                our philosophy: <em>Ideas in Motion</em>.
+                Pe strada General Traian Doda, la numărul 5, &icirc;n inima
+                Bucureștiului, DODA5 este mai mult dec&acirc;t o cafenea &mdash;
+                este un spațiu unde ideile prind viață. Numele nostru poartă
+                adresa și filosofia noastră:{" "}
+                <em className="text-warm-600 font-medium">Ideas in Motion</em>.
               </p>
               <p>
-                We source single-origin beans from the world&apos;s finest
-                growing regions, roasted to perfection to highlight each
-                coffee&apos;s unique character. From bright Ethiopian naturals to
-                rich Colombian washed lots, every cup is a journey through
-                flavor.
+                Servim cafea de specialitate prăjită cu grijă, de la origini
+                atent selectate. De la espresso la matcha latte, fiecare
+                băutură este pregătită cu atenție de bariștii noștri care știu
+                exact ce fac &mdash; chiar dacă uneori lasă espressorul să
+                primească aplauzele.
               </p>
               <p>
-                Our beautifully designed interior and intimate courtyard garden
-                create the perfect backdrop for your morning ritual, a creative
-                session, or a quiet afternoon escape.
+                Spațiul nostru modern, cu design contemporan, plante verzi și
+                lumină naturală, este locul perfect pentru un morning ritual, o
+                sesiune de lucru productivă sau o &icirc;nt&acirc;lnire
+                inspirată. DODA5 este și co-working space &mdash; unde focusul
+                &icirc;nt&acirc;lnește cafeaua bună.
               </p>
             </div>
 
@@ -98,11 +101,13 @@ export default function About() {
             <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-warm-200">
               <div>
                 <p className="text-3xl font-bold text-espresso">100%</p>
-                <p className="text-sm text-warm-600 mt-1">Specialty Grade</p>
+                <p className="text-sm text-warm-600 mt-1">
+                  Cafea de Specialitate
+                </p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-espresso">5+</p>
-                <p className="text-sm text-warm-600 mt-1">Origin Countries</p>
+                <p className="text-3xl font-bold text-espresso">137+</p>
+                <p className="text-sm text-warm-600 mt-1">Momente pe Insta</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-espresso">Daily</p>
